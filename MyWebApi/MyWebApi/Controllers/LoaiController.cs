@@ -44,8 +44,12 @@ namespace MyWebApi.Controllers
                 };
                 _contex.Add(loai);
                 _contex.SaveChanges();
+<<<<<<< HEAD
                 //return Ok("Add thanh cong");
                 return StatusCode(StatusCodes.Status201Created, model); ;
+=======
+                return Ok("Add thanh cong");
+>>>>>>> 505a09b04007c96d6719b83993edc1136cc8b4e9
             }
             catch
             {

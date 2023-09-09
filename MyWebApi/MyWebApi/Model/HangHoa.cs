@@ -9,6 +9,7 @@
     {
         public Guid MaHangHoa { get; set; }
     }
+<<<<<<< HEAD
     public class HangHoaModel
     {
         public Guid MaHangHoa { get; set; }
@@ -16,4 +17,6 @@
         public double DonGia { get; set; }
         public string TenLoai { get; set; }
     }
+=======
+>>>>>>> 505a09b04007c96d6719b83993edc1136cc8b4e9
 }

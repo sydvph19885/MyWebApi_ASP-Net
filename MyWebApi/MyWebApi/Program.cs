@@ -1,6 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using MyWebApi.Data;
+<<<<<<< HEAD
 using MyWebApi.Service;
+=======
+>>>>>>> 505a09b04007c96d6719b83993edc1136cc8b4e9
 
 var builder = WebApplication.CreateBuilder(args );
 var configuration = new ConfigurationBuilder()
@@ -19,8 +22,11 @@ builder.Services.AddDbContext<MyDbContext>(options =>
 {
     options.UseSqlServer(connectionString);
 });
+<<<<<<< HEAD
 builder.Services.AddScoped<ILoaiRepository, LoaiRepository>();
 builder.Services.AddScoped<IHangHoaReponsitory,HangHoaReponsitory>();
+=======
+>>>>>>> 505a09b04007c96d6719b83993edc1136cc8b4e9
 
 var app = builder.Build();
 

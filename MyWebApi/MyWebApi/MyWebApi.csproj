@@ -23,10 +23,7 @@
 
   <ItemGroup>
     <Folder Include="Helper\" />
-<<<<<<< HEAD
-=======
     <Folder Include="Service\" />
->>>>>>> 505a09b04007c96d6719b83993edc1136cc8b4e9
   </ItemGroup>
 
 </Project>
